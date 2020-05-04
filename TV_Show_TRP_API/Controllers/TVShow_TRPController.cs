@@ -13,7 +13,7 @@ namespace TV_Show_TRP_API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class TVShow_TRPController : ControllerBase
-    {
+    { 
         private readonly TV_Show_TRP_APIContext _context;
 
         public TVShow_TRPController(TV_Show_TRP_APIContext context)
